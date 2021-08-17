@@ -11,11 +11,11 @@ module.exports = function () {
 
     config_data.PortNo = process.env.AppPortNo || "4500",
         config_data.HostURL = process.env.AppHostURL || "localhost",
-        config_data.DB_Server = process.env.DBServer || "KSOVEDSQL203",
-        config_data.DB_Name = process.env.DBName || "TestDB",
-        config_data.DB_UserName =  process.env.DBUserName ||"kahdemo",
-        config_data.DB_Password =  process.env.DBPassword ||"kahdemo@1234",
-        config_data.JWTSecretKey = process.env.JWTSecretKey ||"KAHSecret",
+        config_data.DB_Server = process.env.DBServer || "H-AWADSQL001",
+        config_data.DB_Name = process.env.DBName || "adventureworks2014",
+        config_data.DB_UserName =  process.env.DBUserName ||"sa",
+        config_data.DB_Password =  process.env.DBPassword ||"Azureadmin@123",
+        config_data.JWTSecretKey = process.env.JWTSecretKey ||"MySecret",
         config_data.JWTExpirySeconds = process.env.JWTExpirySeconds ||"86400"
 
 
